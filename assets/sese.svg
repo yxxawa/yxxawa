@@ -1,0 +1,33 @@
+<svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sese">
+  <defs>
+    <linearGradient id="seseBg" x1="20" y1="12" x2="332" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#170b1e"/>
+      <stop offset=".55" stop-color="#241026"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="seseLine" x1="34" y1="135" x2="322" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fb7185" stop-opacity="0"/>
+      <stop offset=".32" stop-color="#fb7185" stop-opacity=".82"/>
+      <stop offset=".7" stop-color="#f0abfc" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#f0abfc" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .pulse { stroke-dasharray: 14 22 82 34; animation: pulse 9s ease-in-out infinite alternate; }
+      .heart { transform-origin: 205px 99px; animation: beat 1.6s ease-in-out infinite alternate; }
+      @keyframes pulse { from { stroke-dashoffset: 0; transform: translateX(-4px); } to { stroke-dashoffset: -120; transform: translateX(8px); } }
+      @keyframes beat { from { transform: scale(.96); opacity: .75; } to { transform: scale(1.05); opacity: 1; } }
+    </style>
+  </defs>
+  <path d="M34 119C12 69 52 28 108 35C158 41 177 15 227 31C288 50 340 86 333 137C326 193 255 189 210 174C164 158 128 197 80 176C51 164 43 139 34 119Z" fill="url(#seseBg)"/>
+  <ellipse cx="190" cy="117" rx="139" ry="66" fill="#150b1a" opacity=".36"/>
+  <path class="pulse" d="M31 126C79 91 111 145 154 113C197 80 214 41 257 75C292 103 303 132 329 112" stroke="url(#seseLine)" stroke-width="2.5" stroke-linecap="round"/>
+  <path class="pulse" d="M41 84C91 52 117 77 146 101C185 133 227 129 262 100C288 78 309 79 333 91" stroke="#fb7185" stroke-opacity=".35" stroke-width="1.4" stroke-linecap="round"/>
+  <path class="heart" d="M205 133C166 105 154 80 169 62C181 48 199 54 207 69C216 52 237 47 250 62C266 80 249 105 205 133Z" fill="#fb7185" fill-opacity=".88"/>
+  <path d="M109 141C126 129 149 129 166 141" stroke="#f0abfc" stroke-width="4" stroke-linecap="round"/>
+  <path d="M238 142C257 128 278 129 295 142" stroke="#fb7185" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="117" cy="99" r="2.1" fill="#fecdd3"/>
+  <circle cx="283" cy="82" r="1.6" fill="#f5d0fe"/>
+  <circle cx="306" cy="145" r="1.2" fill="#fecdd3"/>
+  <text x="32" y="186" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="750">涩涩</text>
+  <text x="113" y="185" fill="#bd93aa" font-family="Segoe UI, Arial, sans-serif" font-size="13">粉色信号稳定发射</text>
+</svg>

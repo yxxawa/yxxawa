@@ -1,0 +1,29 @@
+<svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="lazy">
+  <defs>
+    <linearGradient id="lazyBg" x1="34" y1="32" x2="330" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101827"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <linearGradient id="lazyLine" x1="41" y1="151" x2="318" y2="73" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#7dd3fc" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .flow { stroke-dasharray: 18 26 80 35; animation: move 12s ease-in-out infinite alternate; }
+      .zzz { animation: float 3.8s ease-in-out infinite alternate; }
+      @keyframes move { from { stroke-dashoffset: 0; transform: translateX(-4px); } to { stroke-dashoffset: -150; transform: translateX(7px); } }
+      @keyframes float { from { transform: translateY(0); opacity: .55; } to { transform: translateY(-9px); opacity: .95; } }
+    </style>
+  </defs>
+  <path d="M33 126C15 72 61 25 122 30C169 34 189 52 226 39C283 18 340 58 333 112C326 166 265 194 202 180C161 171 137 194 91 181C52 170 42 154 33 126Z" fill="url(#lazyBg)"/>
+  <ellipse cx="184" cy="118" rx="142" ry="66" fill="#0b1220" opacity=".42"/>
+  <path class="flow" d="M34 145C76 112 104 133 146 100C194 62 227 82 254 118C280 152 303 150 329 126" stroke="url(#lazyLine)" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M80 141C108 128 131 128 154 142C184 160 214 157 248 137" stroke="#26364f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M111 119C132 103 157 103 182 120" stroke="#8fb2ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M180 119C203 101 232 103 255 122" stroke="#35f0c2" stroke-opacity=".65" stroke-width="5" stroke-linecap="round"/>
+  <text class="zzz" x="236" y="68" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Z</text>
+  <text class="zzz" x="267" y="48" fill="#a5b4fc" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Z</text>
+  <text x="32" y="186" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="750">懒</text>
+  <text x="78" y="185" fill="#93a4bf" font-family="Segoe UI, Arial, sans-serif" font-size="13">省电模式常驻</text>
+</svg>

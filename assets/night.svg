@@ -1,0 +1,32 @@
+<svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="night owl">
+  <defs>
+    <linearGradient id="nightBg" x1="14" y1="15" x2="337" y2="209" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset=".58" stop-color="#10172a"/>
+      <stop offset="1" stop-color="#1b1631"/>
+    </linearGradient>
+    <linearGradient id="nightLine" x1="32" y1="73" x2="334" y2="163" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#fbbf24" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .orbit { stroke-dasharray: 8 22 65 30; animation: orbit 10s ease-in-out infinite alternate; }
+      .star { animation: twinkle 2.6s ease-in-out infinite alternate; }
+      @keyframes orbit { from { stroke-dashoffset: 0; transform: translate(-5px, 3px); } to { stroke-dashoffset: -130; transform: translate(8px, -5px); } }
+      @keyframes twinkle { from { opacity: .35; } to { opacity: 1; } }
+    </style>
+  </defs>
+  <path d="M31 102C24 50 82 24 139 39C183 50 213 18 262 36C319 57 348 119 317 163C287 207 226 185 186 181C131 175 83 205 49 169C35 154 34 129 31 102Z" fill="url(#nightBg)"/>
+  <ellipse cx="185" cy="114" rx="141" ry="67" fill="#0b1220" opacity=".34"/>
+  <path class="orbit" d="M29 84C89 49 121 111 181 84C238 59 265 41 331 73" stroke="url(#nightLine)" stroke-width="2.2" stroke-linecap="round"/>
+  <path class="orbit" d="M36 141C88 171 129 127 177 151C232 179 273 151 326 174" stroke="#8fb2ff" stroke-opacity=".42" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M215 65C196 84 199 116 224 129C202 135 178 122 169 99C158 70 181 42 215 65Z" fill="#f8d477"/>
+  <circle class="star" cx="91" cy="63" r="2" fill="#dbeafe"/>
+  <circle class="star" cx="128" cy="119" r="1.4" fill="#fbbf24"/>
+  <circle class="star" cx="283" cy="103" r="1.8" fill="#bae6fd"/>
+  <path d="M93 145L118 123L141 145L167 121L198 145" stroke="#26364f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M97 145L121 126L142 145L166 126L193 145" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="186" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="750">熬夜</text>
+  <text x="113" y="185" fill="#93a4bf" font-family="Segoe UI, Arial, sans-serif" font-size="13">凌晨才开始清醒</text>
+</svg>

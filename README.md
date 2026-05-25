@@ -1,43 +1,22 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="yxxawa profile hero with flowing background lines">
+  <img src="./assets/profile-hero.svg" width="100%" alt="yxxawa profile hero">
 </p>
 
 <p align="center">
-  <a href="https://github.com/yxxawa?tab=repositories">Repositories</a>
-  ·
-  <a href="https://github.com/yxxawa/xuexitong-ai-helper">xuexitong-ai-helper</a>
-  ·
-  <a href="https://github.com/yxxawa/hanime1-downloader">hanime1-downloader</a>
-  ·
-  <a href="https://github.com/yxxawa/jmDownload">jmDownload</a>
+  <img src="./assets/lazy.svg" width="31%" alt="懒">
+  <img src="./assets/night.svg" width="31%" alt="熬夜">
+  <img src="./assets/sese.svg" width="31%" alt="涩涩">
 </p>
 
-## About
+<h3 align="center">懒，熬夜，涩涩。</h3>
 
-我在做一些偏实用的工具：脚本增强、AI 接口整合、桌面下载器、网页交互和自动化流程。
+<p align="center">
+  白天低功耗运行，晚上开始加载奇怪想法。<br>
+  代码会写，坑会踩，觉会少睡，xp 会自己长出来。
+</p>
 
-比起堆功能，我更在意这些事：
-
-- 配置要直观，别让用户猜参数。
-- 出错要能看到原因，最好能直接定位请求、响应和状态。
-- 界面可以轻，但不能乱。
-- 工具要能长期维护，源码结构要尽量清楚。
-
-## Projects
-
-[xuexitong-ai-helper](https://github.com/yxxawa/xuexitong-ai-helper)  
-学习通 / 超星 AI 助手与油猴脚本。支持 DeepSeek、OpenAI、Anthropic、手动搜题、题目解析、图片题处理和章节学习相关功能。
-
-[hanime1-downloader](https://github.com/yxxawa/hanime1-downloader)  
-C# 图形化视频下载工具，带搜索、批量下载和内置播放预览，重点是把下载流程做成可视化桌面体验。
-
-[jmDownload](https://github.com/yxxawa/jmDownload)  
-JMComic 桌面下载器，支持搜索、排行榜、批量下载，以及图片目录、ZIP、PDF 等输出方式。
-
-## Stack
-
-`TypeScript` `JavaScript` `C#` `Node.js` `Userscript` `Tampermonkey` `HTML` `CSS` `GitHub Actions`
-
-## Current Focus
-
-把“能用”继续往“好用”推进：更稳的接口适配、更清楚的错误反馈、更少的重复操作，以及更适合开源阅读的项目结构。
+<p align="center">
+  <a href="https://github.com/yxxawa?tab=repositories">repositories</a>
+  ·
+  <a href="https://github.com/yxxawa?tab=stars">stars</a>
+</p>
