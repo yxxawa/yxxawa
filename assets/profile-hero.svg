@@ -1,0 +1,99 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="yxxawa profile hero">
+  <defs>
+    <linearGradient id="flowA" x1="87" y1="306" x2="1118" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#35f0c2" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#35f0c2" stop-opacity="0.72"/>
+      <stop offset="0.48" stop-color="#8fb2ff" stop-opacity="0.82"/>
+      <stop offset="0.76" stop-color="#ff8fb7" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#ff8fb7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="flowB" x1="80" y1="120" x2="1120" y2="296" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0"/>
+      <stop offset="0.27" stop-color="#ffd166" stop-opacity="0.62"/>
+      <stop offset="0.61" stop-color="#35f0c2" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#8fb2ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="mistA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(440 218) rotate(15) scale(438 128)">
+      <stop stop-color="#101827" stop-opacity="0.86"/>
+      <stop offset="0.63" stop-color="#101827" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#101827" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mistB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(755 206) rotate(-11) scale(405 118)">
+      <stop stop-color="#0b1222" stop-opacity="0.75"/>
+      <stop offset="0.7" stop-color="#0b1222" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#0b1222" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-120" y="-120" width="1440" height="660" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.35 0 0 0 0 0.95 0 0 0 0 0.82 0 0 0 0.5 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <filter id="textShadow" x="250" y="100" width="700" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity="0.72"/>
+    </filter>
+    <style>
+      .line {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 24 42 120 55;
+        animation: slide 14s ease-in-out infinite alternate;
+      }
+      .line.fast {
+        animation-duration: 8s;
+        stroke-dasharray: 10 22 66 28;
+      }
+      .line.slow {
+        animation-duration: 19s;
+        stroke-dasharray: 30 58 148 72;
+      }
+      .sketch {
+        stroke-dasharray: 3 18;
+        animation: slide 22s linear infinite;
+      }
+      @keyframes slide {
+        from {
+          stroke-dashoffset: 0;
+          transform: translate3d(-14px, 5px, 0);
+        }
+        to {
+          stroke-dashoffset: -260;
+          transform: translate3d(16px, -7px, 0);
+        }
+      }
+    </style>
+  </defs>
+
+  <ellipse cx="454" cy="217" rx="438" ry="128" fill="url(#mistA)"/>
+  <ellipse cx="755" cy="206" rx="405" ry="118" fill="url(#mistB)"/>
+
+  <g opacity="0.34">
+    <path d="M36 315C123 249 202 290 285 230C376 165 414 95 520 122C635 151 673 273 789 245C900 219 957 96 1081 111C1120 116 1150 132 1180 152" stroke="#263550" stroke-width="1.1"/>
+    <path d="M68 112C154 83 220 95 292 137C401 200 459 189 536 133C626 68 712 61 792 121C889 193 931 302 1048 288C1096 282 1139 252 1172 226" stroke="#20314e" stroke-width="1"/>
+    <path d="M62 264C163 227 218 235 302 276C409 329 492 292 562 229C645 154 728 142 812 196C921 267 1004 254 1168 191" stroke="#1a2742" stroke-width="0.95"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path class="line slow" d="M42 273C139 230 194 171 299 188C417 207 438 310 561 276C677 244 702 88 828 83C946 78 1001 196 1160 128" stroke="url(#flowA)" stroke-width="2.6"/>
+    <path class="line" d="M37 161C132 112 188 130 259 160C349 199 390 258 484 233C607 201 622 71 742 84C861 97 900 235 1021 220C1088 211 1126 168 1174 147" stroke="url(#flowB)" stroke-width="2.1"/>
+    <path class="line fast" d="M82 308C179 258 240 279 318 235C395 191 404 111 502 107C626 102 654 250 781 245C900 240 920 105 1045 94C1093 90 1130 106 1175 132" stroke="#8fb2ff" stroke-opacity="0.44" stroke-width="1.55"/>
+    <path class="line slow" d="M27 218C92 251 168 245 230 207C320 153 332 75 435 81C539 87 566 178 665 176C778 174 797 71 908 75C1014 78 1059 160 1172 173" stroke="#35f0c2" stroke-opacity="0.38" stroke-width="1.45"/>
+    <path class="line" d="M75 99C174 61 231 101 312 134C430 181 504 158 574 109C658 50 724 43 799 94C891 158 936 252 1041 251C1098 250 1139 231 1176 205" stroke="#ff8fb7" stroke-opacity="0.34" stroke-width="1.25"/>
+    <path class="sketch" d="M106 347C251 285 358 343 484 293C606 245 641 153 760 167C900 184 944 318 1102 278" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+  </g>
+
+  <g opacity="0.72">
+    <circle cx="156" cy="110" r="1.2" fill="#d7fff4"/>
+    <circle cx="297" cy="256" r="0.9" fill="#8fb2ff"/>
+    <circle cx="423" cy="83" r="1.1" fill="#ffd166"/>
+    <circle cx="615" cy="292" r="0.8" fill="#d7fff4"/>
+    <circle cx="795" cy="116" r="1" fill="#ff8fb7"/>
+    <circle cx="936" cy="261" r="0.85" fill="#8fb2ff"/>
+    <circle cx="1075" cy="94" r="1.2" fill="#35f0c2"/>
+  </g>
+
+  <g filter="url(#textShadow)" text-anchor="middle">
+    <text x="600" y="185" fill="#f8fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="760" letter-spacing="0">yxxawa</text>
+    <text x="600" y="226" fill="#c9d7ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="500">AI tools · userscripts · desktop downloaders · web automation</text>
+    <text x="600" y="260" fill="#8fa4c7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">TypeScript / C# / JavaScript</text>
+  </g>
+</svg>

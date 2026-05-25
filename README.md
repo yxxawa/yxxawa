@@ -1,45 +1,43 @@
-<div align="center">
-  <img src="./assets/flow-lines.svg" width="100%" alt="flowing line banner">
+<p align="center">
+  <img src="./assets/profile-hero.svg" width="100%" alt="yxxawa profile hero with flowing background lines">
+</p>
 
-  <h1>yxxawa</h1>
+<p align="center">
+  <a href="https://github.com/yxxawa?tab=repositories">Repositories</a>
+  ·
+  <a href="https://github.com/yxxawa/xuexitong-ai-helper">xuexitong-ai-helper</a>
+  ·
+  <a href="https://github.com/yxxawa/hanime1-downloader">hanime1-downloader</a>
+  ·
+  <a href="https://github.com/yxxawa/jmDownload">jmDownload</a>
+</p>
 
-  <p>
-    写一点能真正用上的东西。偏向脚本、自动化、AI 工具和网页交互，也喜欢把复杂功能整理成干净的界面。
-  </p>
+## About
 
-  <p>
-    <a href="https://github.com/yxxawa/xuexitong-ai-helper">学习通 AI 辅助插件</a>
-    ·
-    <a href="https://github.com/yxxawa?tab=repositories">Repositories</a>
-    ·
-    <a href="https://github.com/yxxawa?tab=stars">Stars</a>
-  </p>
-</div>
+我在做一些偏实用的工具：脚本增强、AI 接口整合、桌面下载器、网页交互和自动化流程。
 
----
+比起堆功能，我更在意这些事：
 
-### About
+- 配置要直观，别让用户猜参数。
+- 出错要能看到原因，最好能直接定位请求、响应和状态。
+- 界面可以轻，但不能乱。
+- 工具要能长期维护，源码结构要尽量清楚。
 
-我更关注工具的实际体验：能不能少点重复操作，能不能把配置做清楚，出了问题能不能看见原因。
+## Projects
 
-现在主要在做：
+[xuexitong-ai-helper](https://github.com/yxxawa/xuexitong-ai-helper)  
+学习通 / 超星 AI 助手与油猴脚本。支持 DeepSeek、OpenAI、Anthropic、手动搜题、题目解析、图片题处理和章节学习相关功能。
 
-- AI 辅助工具：接入 DeepSeek、OpenAI、Anthropic 和兼容接口。
-- Userscript / Tampermonkey：网页增强、自动化和轻量 UI。
-- TypeScript 项目整理：把能开源的东西拆干净，方便别人直接使用。
-- 学习通相关适配：题目解析、图片处理、手动搜题和交互优化。
+[hanime1-downloader](https://github.com/yxxawa/hanime1-downloader)  
+C# 图形化视频下载工具，带搜索、批量下载和内置播放预览，重点是把下载流程做成可视化桌面体验。
 
-### Stack
+[jmDownload](https://github.com/yxxawa/jmDownload)  
+JMComic 桌面下载器，支持搜索、排行榜、批量下载，以及图片目录、ZIP、PDF 等输出方式。
 
-`TypeScript` `JavaScript` `Node.js` `Userscript` `Tampermonkey` `HTML` `CSS` `GitHub Actions`
+## Stack
 
-### Featured
+`TypeScript` `JavaScript` `C#` `Node.js` `Userscript` `Tampermonkey` `HTML` `CSS` `GitHub Actions`
 
-| Project | What it does |
-| --- | --- |
-| [xuexitong-ai-helper](https://github.com/yxxawa/xuexitong-ai-helper) | 面向学习通 / 超星的 AI 助手与油猴脚本，支持自定义 AI 接口、题目解析、手动搜题和章节学习。 |
+## Current Focus
 
-### Notes
-
-项目会尽量保持直接、可读、可复现。  
-如果一个功能需要很多说明才能用，那通常说明界面或默认行为还可以继续改。
+把“能用”继续往“好用”推进：更稳的接口适配、更清楚的错误反馈、更少的重复操作，以及更适合开源阅读的项目结构。
