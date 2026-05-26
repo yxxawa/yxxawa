@@ -1,5 +1,5 @@
 <p align="center">
-  
+  <img src="./assets/profile-hero.svg" width="100%" alt="yxxawa profile hero">
 </p>
 
 
