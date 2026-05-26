@@ -10,8 +10,3 @@
   代码会错，坑会踩，觉会少睡，xp 会自己长出来。
 </p>
 
-<p align="center">
-  <a href="https://github.com/yxxawa?tab=repositories">repositories</a>
-  ·
-  <a href="https://github.com/yxxawa?tab=stars">stars</a>
-</p>
