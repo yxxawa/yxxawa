@@ -2,11 +2,6 @@
   <img src="./assets/profile-hero.svg" width="100%" alt="yxxawa profile hero">
 </p>
 
-<p align="center">
-  <img src="./assets/lazy.svg" width="31%" alt="懒">
-  <img src="./assets/night.svg" width="31%" alt="熬夜">
-  <img src="./assets/sese.svg" width="31%" alt="涩涩">
-</p>
 
 <h3 align="center">懒，熬夜，涩涩。</h3>
 
